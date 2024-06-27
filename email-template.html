@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Email Template - HTML and CSS</title>
+        <style>
+                
+            @media screen and (max-width: 560px) {
+                .content {
+                    width: 100% !important;
+                    display: block !important;
+                    padding: 0px !important;
+                }
+                .email-body,
+                .footer {
+                    padding: 10px !important;
+                }
+                h1{
+                    font-size: 16px;
+                    padding: 0px !important;
+                }
+                p, .call-to-action{
+                    font-size: 10px;
+                }
+            }
+            
+        </style>
+    </head>
+
+    <body style="font-family: 'Poppins', Arial, sans-serif; padding: 20px 40px 40px 40px; background-color: beige;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" >
+            <tr>
+                <td align="center" style="padding: 0px; background-color: aliceblue;">
+                    <table class="content" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <!-- Email content goes here -->
+                        <!-- Header -->
+                        <!-- Logo -->
+                        <tr>
+                            <td class="header-logo"
+                                style="background-color: #fcfdb4; text-align: center; padding-top: 10px;">
+                                <a href="www.example.com" target="_blank"><img src="https://cdn.logojoy.com/wp-content/uploads/20230629132639/current-logo-600x338.png"
+                                    alt="Logo" width="100px" class="header-logo"> </a>
+                            </td>
+                        </tr>
+                        <!-- Logo End -->
+                        <tr>
+                            <td style="padding: 3px;">
+                            </td>
+                        </tr>
+                        <!-- Banner Image -->
+                        <tr>
+                            <td class="banner-image">
+                                    <a href="www.example.com" target="_blank"><img src="https://marketplace.canva.com/EAFE21wCqKo/1/0/1600w/canva-white-gray-minimalist-marketing-email-header-JbUhI51JsQg.jpg"
+                                    alt="Banner Image" width="100%" class="header-logo"></a>
+                            </td>
+                        </tr>
+                        <!-- Banner Image End -->
+                        <tr>
+                            <td class="main-heading"
+                                style="background-color: #345C72; padding: 10px; text-align: center; color: white; font-size: 16px;">
+                                <h1>Responsive Email Template</h1>
+                            </td>
+                        </tr>
+                        
+                        <!-- Header End-->
+                        <!-- Body -->
+                        <tr>
+                            <td class="email-body" style="padding: 20px; font-size: 12px; text-align: left;">
+                                <p>Dear First_Name, <br>
+                                <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam corporis sint eum
+                                nemo animi velit exercitationem impedit. Incidunt, officia facilis atque? Ipsam voluptas
+                                fugiat distinctio blanditiis veritatis.
+                                <br><br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam corporis sint eum nemo
+                                animi velit exercitationem impedit. Incidunt, officia facilis atque? Ipsam voluptas
+                                fugiat distinctio blanditiis veritatis.</p>
+                            </td>
+                        </tr>
+                        <!-- Call to action Button -->
+                        <tr>
+                            <td style="padding: 0px 40px 0px 40px; text-align: center;">
+                                <!-- CTA Button -->
+                                <table cellspacing="0" cellpadding="0" style="margin: auto;">
+                                    <tr>
+                                        <td align="center"
+                                            style="background-color: #345C72; padding: 10px 20px; border-radius: 5px;">
+                                            <a href="https://www.yourwebsite.com" target="_blank"
+                                                style="color: #ffffff; text-decoration: none; font-weight: bold;" class="call-to-action">Contact Us</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table style="padding: 20px;">
+                                    <td align="left" style="font-size: 10px; padding-right: 10px;">
+                                        <img style="border-radius: 10% 0;"
+                                            src="https://live.staticflickr.com/4080/4753562685_03c1d154cb_b.jpg"
+                                            alt="Add Text Here" width="100%">
+                                        <p style="padding: 0px;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam corporis
+                                            sint eum nemo animi velit exercitationem impedit. Incidunt, officia facilis
+                                            atque? Ipsam voluptas fugiat distinctio blanditiis veritatis.
+                                        </p>
+                                    </td>
+                                    <td align="left`" style="font-size: 10px; padding-left: 10px;">
+                                        <img style="border-radius: 10% 0;"
+                                            src="https://landtrustnal.org/wp-content/uploads/harvest-square-pond.jpg"
+                                            alt="Add Text Here" width="100%">
+                                        <p style="padding: 0px ;">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Veniam corporis sint eum nemo animi velit exercitationem impedit.
+                                            Incidunt, officia facilis atque? Ipsam voluptas fugiat distinctio blanditiis
+                                            veritatis.</p>
+                                    </td>
+                                </table>
+                            </td>
+                        </tr>
+
+                        <!-- Footer -->
+            </tr>
+            <tr>
+                <td class="footer"
+                    style="background-color: #3a3a3a; padding: 20px; text-align: center; color: white; font-size: 14px;">
+                    Footer
+                </td>
+            </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+    </body>
+
+</html>
