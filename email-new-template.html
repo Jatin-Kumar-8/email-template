@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Email Template - HTML and CSS</title>
+        <style>
+                p{
+                    font-size: 12px;
+                }
+                li{
+                    font-size: 10px;
+                }
+                .payment-details-table{
+                    width: 50%;
+                    border-collapse: collapse;
+                    font-size: 10px;
+                }
+                .payment-details-table th, .payment-details-table td {
+            border: 1px solid #000000;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .payment-details-table th {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+       
+            @media screen and (max-width: 420px) {
+                .content {
+                    width: 100% !important;
+                    display: block !important;
+                    padding: 0px !important;
+                }
+                .logo-image{
+                    width: 50%;
+                }
+                .payment-details-table{
+                    width: 100%;
+                }
+                .email-body,
+                .footer {
+                    padding: 10px !important;
+                }
+                h4{
+                    font-size: 14px;
+                    padding: 0px !important;
+                }
+                li{
+                    font-size: 9px;
+                }
+                p, .call-to-action{
+                    font-size: 11px;
+                }
+            }
+            
+        </style>
+    </head>
+
+    <body style="font-family: 'Poppins', Arial, sans-serif; padding: 20px 40px 40px 40px; background-color: rgb(255, 255, 255);">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" >
+            <tr>
+                <td align="center" style="padding: 0px; background-color: aliceblue;">
+                    <table class="content" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <!-- Email content goes here -->
+                        <!-- Banner Image -->
+                        <tr>
+                            <td class="banner-image">
+                                    <a href="www.example.com" target="_blank"><img src="https://marketplace.canva.com/EAFE21wCqKo/1/0/1600w/canva-white-gray-minimalist-marketing-email-header-JbUhI51JsQg.jpg"
+                                    alt="Banner Image" width="100%" class="header-logo"></a>
+                            </td>
+                        </tr>
+                        <!-- Banner Image End -->
+                        
+                        <!-- Header End-->
+                        <!-- Body -->
+                        <tr>
+                            <td class="email-body" style="padding: 20px; font-size: 12px; text-align: left;">
+                                <p>Hi {{First-Name}}, <br>
+                                <br> You have successfully completed the first payment for your {{Company Name}} contract ABCD123. This email is for your records only and no further action is required.
+                                <br><br>
+                                Details of the booking are below for your reference, and a copy of the contract is attached.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 5px; background-color: rgb(255, 255, 255);">
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td class="dinamic-content"
+                                style="background-color: #d3d3d3;padding: 10px; text-align: Left; color: rgb(7, 7, 7);">
+                                <h4>Service Details</h4>
+                                <p>12 Months adverting on ditial screen at the following clinic.</p>
+                                
+                                <Ul style="line-height: 14px;">
+                                    <li>Booked Service Name</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                    <li>additional details</li>
+                                    <li>Includes artwork creation</li>
+                                </Ul>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque nisi similique animi eaque illo, veniam, adipisci dolor asperiores beatae omnis obcaecati expedita ea, libero veritatis. Quia consequatur nam error iste!</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 1px;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="dinamic-content"
+                                style="background-color: #d3d3d3;padding: 10px; text-align: Left; color: rgb(0, 0, 0);">
+                                <h4>Payment Details</h4>
+                                <table class="payment-details-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Due Date</th>
+                                            <th>Amount</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>30 May 2024</td>
+                                            <td>$0000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>30 May 2024</td>
+                                            <td>$0000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>30 May 2024</td>
+                                            <td>$0000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>30 May 2024</td>
+                                            <td>$0000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>30 May 2024</td>
+                                            <td>$0000.00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="padding: 5px; background-color: rgb(255, 255, 255);">
+                            </td>
+                        </tr>      
+            </tr>
+            <!-- Footer -->
+            <tr>
+                <td class="footer-logo"
+                    style="background-color: #000; text-align: center; padding: 10px;">
+                    <a href="www.example.com" target="_blank"><img src="https://shopamarketing.com/wp-content/uploads/2023/08/SM_Horizontallowwhite.png"
+                        alt="Logo" width="50%" class="logo-image"> </a>
+                </td>
+            </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+    </body>
+
+</html>
